@@ -27,3 +27,7 @@ function executarCodigo() {
   // 5. Mudamos o conteúdo de texto para o valor da variável 'nome'
   paragrafoResultado.textContent = nome;
 }
+
+function LimparTela() {
+  location.reload();
+}

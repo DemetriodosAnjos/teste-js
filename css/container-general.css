@@ -39,7 +39,7 @@
 
 .container-text{
     width: 280px;
-
+    
     .sub-title {
         margin: 12px 0px;
         color: #424242
@@ -49,7 +49,7 @@
         font-size: 13px;
         line-height: 1.5;
         margin: 0;
-        margin-bottom: 20px;
+        margin-bottom: 8px;
         color: #424242
     }
 }
@@ -63,6 +63,7 @@
     font-size: 18px;
     font-weight: 700;
     color: blue;
+    margin-top: 30px;
     margin-bottom: 30px;
     background-color: #f2f3f7;
 }
@@ -73,7 +74,8 @@
     justify-content: center;
 
     width: 280px;
-    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
 
     .btn {
         font-size: 16px;
@@ -92,4 +94,32 @@
         
     }
 }
+
+.container-button-clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 280px;
+    margin-bottom: 32px;
+
+    .btn-clear {
+        font-size: 16px;
+        width: 280px;
+        height: 50px;
+        border: solid 1px blue;
+        color: blue;
+        border-radius: 6px;
+        background-color: transparent;
+        transition: 0.3 ease;
+        cursor: pointer;
+
+        &:hover {
+            border: solid 1px rgb(1, 1, 192);
+            background-color: rgb(248, 248, 255);
+        }
+        
+    }
+}
+
 
